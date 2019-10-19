@@ -34,13 +34,19 @@ body{
 
 	} 
 
-	.my_from input[type= "text"]{
+	.my_from input[type= "text"]{ 
 		padding: 5px;
 		width: 80%;
 	}
+	.my_from input[type= "password"]{ 
+		padding: 5px;
+		width: 80%;
+	}
+			
+
 	.my_from input[type= "email"]{
 		padding: 5px;
-		width: 60%;
+		width: 80%;
 	}
 	.my_from textarea{
 		padding: 10px;
