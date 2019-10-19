@@ -1,9 +1,55 @@
 body{
-	margin: 0;
-	padding: 0;
-	background: url(background.jpg);
-	background-size: cover;
-	background-position: center;
-	font-family:sans-serif;
+	background-image: url('bg1.jpg');
+	line-height: 2em;
+	font-weight: bold;
+	padding: 60px;
+	
+	
+
+	}
+	.gs{
+		background-image:url('bg.jpg');
+		border-radius: 18px;
+		padding-top: 5px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 20px 0;
+
+	}	
+	.gs h1 { 
+		letter-spacing: 0.2em;
+		word-spacing: 0.2em;
+		text-align:center;
+		text-decoration-line: underline;
+		
+	}
+	
+	.auto_size{
+		width: 30%;
+		margin: auto;
 	}
 
+	.my_from label{
+		display:block;
+
+	} 
+
+	.my_from input[type= "text"]{
+		padding: 5px;
+		width: 80%;
+	}
+	.my_from input[type= "email"]{
+		padding: 5px;
+		width: 60%;
+	}
+	.my_from textarea{
+		padding: 10px;
+		width: 90%;
+	
+	}
+	.my_from input[type = "submit"]{
+		background-color:slategray;
+		padding: 10px;
+		text-align: center;
+
+	}
